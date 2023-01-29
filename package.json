@@ -1,0 +1,27 @@
+{
+  "name": "@flying-something/schoolsby-api",
+  "description": "Unofficial API for schools.by (Belarusian digital student diary)",
+  "repository": {
+    "url": "https://github.com/flying-something/schoolsby-api.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "packageManager": "npm@9.4.0",
+  "type": "module",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "prepare": "npm run compile"
+  },
+  "dependencies": {
+    "jsdom": "^21.1.0",
+    "node-libcurl": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^20.0.1",
+    "typescript": "^4.9.4"
+  }
+}
